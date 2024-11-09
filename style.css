@@ -55,6 +55,11 @@ body{
     bottom: -4px;
     left:20px
 }
+#mobile{
+    display: none;
+    align-items: center;
+
+}
 .main{
     height: 500px;
     width: 100%;
@@ -551,4 +556,35 @@ footer .Copy{
     font-size: 25px;
     width: 100%;
     text-align: center;
+}
+
+@media (max-width:850px) {
+    #nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+    }
+    #nav .active{
+        right:0px;
+    }
+    #nav li{
+        margin-bottom: 25px;
+    }
+     
+    #mobile{
+        display: flex;
+        align-items: center;
+
+    }
+    
 }
