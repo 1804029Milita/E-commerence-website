@@ -280,7 +280,9 @@ body{
     position: relative;
 }
 #product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgba(54, 1, 1, 0.06);
+    background: #dbdbea;
+    color:white;
+
 }
 #product1 .pro img{
     height: 300px;
@@ -376,33 +378,122 @@ button.normal{
     background-position: center;
     padding:30px;
 }
+#sm-banner .banner-box2{
+    background-image: url("image/summer.avif");
+}
 #sm-banner h4{
-   
+    
     font-size: 20px;
     font-weight: 300;
 }
 #sm-banner h2{
+    
     font-size:30px;
     font-weight: 600;
     padding-top: 5px;
 }
 #sm-banner span{
+    
     font-size: 14px;
     font-weight: 500;
     padding-top: 5px;
     padding-bottom: 7px;
 }
 button.white{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 11px 18px;
     color:#000;
-    background-color: white;
-    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white;
     cursor:pointer;
-    border: none;
     outline:none;
     transition: 0.2s;
+}
+#sm-banner button:hover{
+    background: #088178;
+    color:white;
+}
 
+#sm-banner1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#sm-banner1 .banner-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    background-image: url("image/b11.avif");
+    width: 30%;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    margin-bottom: 20px;
+}
+#sm-banner1 .banner-box4{
+    background-image: url("image/foot1.avif");
 
+}
+#sm-banner1 .banner-box5{
+    background-image: url("image/tshirt1.avif");
+}
+#sm-banner1 h2{
+    color:white;
+    font-weight: 900;
+    font-size: 22px;
+}
+#sm-banner1 h4{
+    color:white;
+    font-weight: 600;
+    font-size: 15px;
+}
+#new{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: #040a3c;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#new .newtext h4{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.newtext p{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.newtext span{
+    color:rgb(210, 156, 30)
+}
+#new .form{
+    display: flex;
+    width: 50%;
+}
+#new input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+#new button{
+    background-color: #088178;
+    color:white;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
