@@ -666,6 +666,7 @@ footer .Copy{
     align-items:center;
     justify-content: space-between;
     width: 100%;
+    position: relative;
 }
 #blog.blog-img{
     width: 70%;
@@ -709,6 +710,22 @@ footer .Copy{
     font-size: 15px;
     padding-bottom: 15px;
 }
+#blog .blog-details a:hover{
+    color: #088178;
+}
+#blog .blog-details a:hover::after{
+    background-color: #088178;
+}
+.blog-box h1{
+    position: absolute;
+    top:-40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbc3;
+    z-index: -9;
+}
+
 
 @media (max-width:850px) {
     #nav {
