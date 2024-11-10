@@ -590,6 +590,11 @@ footer .Copy{
 }
 
 /* product */
+
+#pro-details{
+    display: flex;
+    margin-top: 20px;
+}
 #pro-details .single-pro{
     width: 40%;
     
@@ -605,6 +610,45 @@ footer .Copy{
     flex-basis: 24%;
     cursor: pointer;
 }
+#pro-details .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+
+}
+#pro-details .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#pro-details .single-pro-details h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+    
+}
+#pro-details .single-pro-details select{
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+#pro-details .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#pro-details .single-pro-details input:focus{
+    outline: none;
+}
+#pro-details .single-pro-details button{
+    background-color: #088178;
+    color:#fff;
+}
+#pro-details .single-pro-details input span{
+    line-height: 25px;
+}
+
+
+
+
 @media (max-width:850px) {
     #nav {
     display: flex;

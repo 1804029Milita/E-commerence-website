@@ -29,23 +29,118 @@
     </section>
     <section id="pro-details" class="section-p1">
         <div class="single-pro">
-            <img src="image/f1.jpg" width="100%"   id="mainimg" alt="">
+            <img src="image/f1.jpg" width="100%" height="500px"   id="mainimg" alt="">
         <div class="smallimg-group">
             <div class="small-img-col">
-                <img src="image/f1.jpg" width="100%" height="150px" class="smallimg"alt="">
+                <img src="image/f1.jpg" width="100%" height="120px" class="smallimg"alt="">
             </div>
             <div class="small-img-col">
-                <img src="image/f2.jpg" width="100%" height="150px" class="smallimg"alt="">
+                <img src="image/f2.jpg" width="100%" height="120px" class="smallimg"alt="">
             </div>
             <div class="small-img-col">
-                <img src="image/f3.jpg" width="100%" height="150px"  class="smallimg"alt="">
+                <img src="image/f3.jpg" width="100%" height="120px"  class="smallimg"alt="">
             </div>
             <div class="small-img-col">
-                <img src="image/f4.jpg"width="100%" height="150px" class="smallimg"alt="">
+                <img src="image/f4.jpg"width="100%" height="120px" class="smallimg"alt="">
             </div>
         </div>
         </div>
-        <div></div>
+        <div class="single-pro-details">
+            <h6>Home / T-shirt</h6>
+            <h4>Men's Fashion T-shirt</h4>
+            <h2>$139.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+                
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>The Gildan Ultra Cotton t_shirt is made from a substaintial 6.0 oz.
+                per sq. yd. fabric constructed from 100% coton, the classic fit preshunk jersey knit provides
+                unmatched comfort with each wear. Featuring a taped neck and shoulder and a seamless double
+                needle collar.
+            </span>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-contain">
+            <div class="pro">
+                <img src="image/hoodie2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class=" fa-solid fa-shop"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/p11.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+    
+                </div>
+                <a href="#"><i class=" fa-solid fa-shop"></i></a>
+            </div>
+        
+            <div class="pro">
+                <img src="image/p3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+    
+                </div>
+                <a href="#"><i class=" fa-solid fa-shop"></i></a>
+            </div>
+    
+            <div class="pro">
+                <img src="image/hoodie3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+    
+                </div>
+                <a href="#"><i class=" fa-solid fa-shop"></i></a>
+            </div>
+        </div>
     </section>
 <section id="new" class="section-p1 section-m1">
     <div class="newtext">
@@ -107,6 +202,16 @@
         <p>0 2021, Tech2 ete-HTML CSS Ecommerce Template</p>
     </div>
 </footer>
+<script>
+var mainIm = document.getElementById("mainimg");
+var smallIm = document.querySelectorAll(".smallimg"); // Assuming each small image has the class "smallimg"
+
+smallIm.forEach((img, index) => {
+  img.onclick = function() {
+   mainIm.src = img.src;
+  };
+});
+</script>
     <script src="script.js"></script>
 </body>
 </html>
