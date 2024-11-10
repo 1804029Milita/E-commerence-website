@@ -601,7 +601,7 @@ footer .Copy{
     justify-content: space-between;
 
 }
-.small{
+.small-img-col{
     flex-basis: 24%;
     cursor: pointer;
 }
