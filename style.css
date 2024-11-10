@@ -576,7 +576,18 @@ footer .Copy{
     font-size: 28px;
     font-weight: 700;
 }
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding:15px 20px;
+    border-radius: 4px;
+    color:#fff;
+    font-weight: 600;
 
+}
 @media (max-width:850px) {
     #nav {
     display: flex;
