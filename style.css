@@ -593,7 +593,7 @@ footer .Copy{
 
 #pro-details{
     display: flex;
-    margin-top: 20px;
+    margin:40px
 }
 #pro-details .single-pro{
     width: 40%;
@@ -693,4 +693,33 @@ footer .Copy{
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box{
+        width: 15px;
+        margin: 0 0 15px 0;
+    }
+    #product1 .pro{
+        width: 100%;
+    }
+    #banner{
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+    footer .copyright{
+        text-align: start;
+    }
+    #pro-details{
+        display: flex;
+        flex-direction: column;
+    }
+    #pro-details .single-pro{
+        width: 100%;
+        margin-right: 0px;
+
+    }
+
 }
