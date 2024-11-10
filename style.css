@@ -560,6 +560,22 @@ footer .Copy{
     width: 100%;
     text-align: center;
 }
+/* shop */
+#pageheader{
+    background-image: url(image/banner3.avif);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:14px;
+}
+#pageheader h4{
+    font-size: 28px;
+    font-weight: 700;
+}
 
 @media (max-width:850px) {
     #nav {
