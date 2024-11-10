@@ -588,6 +588,23 @@ footer .Copy{
     font-weight: 600;
 
 }
+
+/* product */
+#pro-details .single-pro{
+    width: 40%;
+    
+    margin-right: 50px;
+
+}
+.smallimg-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.small{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 @media (max-width:850px) {
     #nav {
     display: flex;
