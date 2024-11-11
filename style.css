@@ -768,10 +768,22 @@ footer .Copy{
 }
 
 /* contact */
-#pageheader.contact-header{
-    background-image: url("image/cntact.avif");
-    background-size: cover;
+#pageheader1.contact-header{
+    background-color: #040a3c;
     height: 150px;
+    
+}
+#pageheader1 h4{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+#pageheader1 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
 }
 #contact-details{
     display: flex;
@@ -837,8 +849,9 @@ footer .Copy{
 }
 #form-details{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin: 30px;
+    padding: 80px; border: 1px solid #e1e1e1;
 }
 #form-details .people div{
     padding-bottom: 25px;
@@ -849,6 +862,25 @@ footer .Copy{
     object-fit: cover;
     margin-right: 15px;
 }
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people div span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+
+}
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
 @media (max-width:850px) {
     #nav {
     display: flex;
@@ -945,7 +977,21 @@ footer .Copy{
     #about-app .video{
         width: 100%;
     }
-
+    #contact-details{
+        flex-direction: column;
+        margin: 20px;
+        padding: 30px;
+    }
+    #contact-details .map{
+        padding-top: 20px;
+        width: 100%;
+        height: 400px;
+    }
+    #form-details {
+        margin: 30px;
+        padding: 40px;
+    }
+    
 }
 @media(max-width:477px){
     .section-p1{
@@ -976,4 +1022,49 @@ footer .Copy{
     #about-app .video{
         width: 100%;
     }
+    #contact-details{
+        margin: 10px;
+        padding: 10px;
+    }
+    #form-details{
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px; 
+    }
+    #form-details form{
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    #form-details form {
+        align-items: normal;
+    }
+    #form-details button.normal{
+        padding-left: 50px;
+        width: 40%;
+        
+    }
+    #new .form{
+        width: 80%;
+    }
+    #new input{
+        height: 2.5rem;
+        padding: 0 1.0em;
+    }
+    #new button{
+        height: 2.5rem;
+    }
+    #new .newtext h4{
+        font-weight: 600;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .newtext p{
+        font-size: 12px;
+        font-weight: 500;
+       
+    }
+    .section-m1{
+        margin: 20px 0;
+    }
+
 }
