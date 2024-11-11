@@ -835,7 +835,20 @@ footer .Copy{
     background-color: #088178;
     color: white;
 }
-
+#form-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#form-details .people div{
+    padding-bottom: 25px;
+}
+#form-details .people img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
 @media (max-width:850px) {
     #nav {
     display: flex;
