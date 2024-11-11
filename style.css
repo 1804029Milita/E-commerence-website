@@ -110,11 +110,11 @@ body{
 .section-m1{
     margin:40px 0;
 }
-#feature{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+#feature {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+    justify-items: center;
 }
 #feature .fe-box{
     width: 180px;
@@ -814,13 +814,13 @@ footer .Copy{
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
-    #feature{
-        justify-content: space-between;
+    /*#feature {
+        flex-direction: column;
+        align-items: center;
     }
-    #feature .fe-box{
-        width: 15px;
-        margin: 0 0 15px 0;
-    }
+    #feature .fe-box {
+        width: 80%;  
+    }*/
     #product1 .pro{
         width: 100%;
     }
@@ -863,5 +863,38 @@ footer .Copy{
     #blog .blog-details{
         width: 100%;
     }
+    #about-app .video{
+        width: 100%;
+    }
 
+}
+@media(max-width:477px){
+    .section-p1{
+        padding: 20px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 18px;
+    }
+    #about-head{
+        flex-direction: column;
+        
+    }
+    #about-head img{
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+    #about-app .video{
+        width: 100%;
+    }
 }
